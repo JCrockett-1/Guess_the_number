@@ -1,12 +1,13 @@
 # Overview
-
 This is a random number guessing game in Java. This program:
 - Generates a random number within a range
 - Lets the user guess numbers until they find the correct one and says if it's to0 high or low
 - Keeps track of the attempts and high score
-This was created using VSCode.
+This was created using VSCode, with the goal of the game bding in the fewest attempts possible. This project was created to practice object-oriented programming in Java, file input/output, and user interaction through the command line.
 
 [Software Demo Video](https://youtu.be/hvoJVz-rBKg)
+
+You can run the program by compiling the program `javac -d bin src/*.java` and running the program `java -cp bin Main`.
 
 # Development Environment
 * Visual Studio Code
@@ -18,7 +19,6 @@ This was created using VSCode.
 - [W3 Schools Java Introduction](https://www.w3schools.com/java/java_intro.asp)
 
 # Future Work
-
 - Add some proper handling of exceptions throughout the program.
 - Allow the user to inoput the min and max of the random number that's generated.
 - Make the program look more professional.
