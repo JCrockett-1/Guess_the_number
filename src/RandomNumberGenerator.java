@@ -3,18 +3,17 @@ import java.util.Random;
 
 // RandomNumberGenerator class is created with fields, random_number, max, and min, and methods GenerateNumber and
 public class RandomNumberGenerator {
-    private int random_number;
     private int max;
     private int min;
 
-    public RandomNumberGenerator(int max_number, int min_number) {
+    public RandomNumberGenerator(int min_number, int max_number) {
         this.max = max_number;
         this.min = min_number;
     }
 
-    private int GenerateNumber(max, min) {
+    public int GenerateNumber() {
         Random random = new Random();
-
+        int random_number = random.nextInt(this.max - this.min + 1) + this.min;
+        return random_number;
     }
 }
-https://docs.oracle.com/javase/8/docs/api/java/util/Random.html

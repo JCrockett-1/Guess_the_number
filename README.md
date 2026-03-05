@@ -1,20 +1,17 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This is a random number guessing game in Java. This program:
+- Generates a random number within a range
+- Lets the user guess numbers until they find the correct one and says if it's to0 high or low
+- Keeps track of the attempts and high score
+This was created using VSCode.
 
-{Provide a description of the software that you wrote to demonstrate the Java language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video]()
+[Software Demo Video](https://youtu.be/hvoJVz-rBKg)
 
 # Development Environment
-
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* Visual Studio Code
+* OpenJDK 25.0.2
+* Git / GitHub
 
 # Useful Websites
 - [Oracle Random Forum](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html)
@@ -22,8 +19,6 @@
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Add some proper handling of exceptions throughout the program.
+- Allow the user to inoput the min and max of the random number that's generated.
+- Make the program look more professional.
